@@ -1,0 +1,148 @@
+.login-bg-container {
+  background-color: #f4f5e9;
+  min-height: 100vh;
+  align-items: center;
+  padding: 10px;
+}
+.login-card-container {
+  background-color: white;
+  padding: 20px;
+  min-width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.left-side-heading {
+  color: white;
+  font-size: 50px;
+}
+@media screen and (min-width: 768px) {
+  .login-card-container {
+    min-width: 400px;
+  }
+}
+.label-heading {
+  font-size: 15px;
+  font-family: 'roboto';
+  color: black;
+}
+.input-style {
+  font-size: 15px;
+  color: black;
+  font-family: 'roboto';
+  height: 30px;
+  width: 90%;
+  margin-top: 10px;
+  background-color: #ebebe0;
+  border: 1px solid transparent;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.login-btn {
+  background-color: black;
+  font-size: 17px;
+  font-family: 'roboto';
+  font-weight: bold;
+  padding: 8px;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 100%;
+}
+.error-msg {
+  color: red;
+  font-size: 13px;
+}
+.forgot-text {
+  color: blue;
+  font-size: 15px;
+}
+.sign-in-heading {
+  font-size: 40px;
+  font-weight: bold;
+}
+.sign-in-description {
+  font-size: 19px;
+  line-height: 0px;
+  margin-bottom: 40px;
+}
+.sign-in-with-button {
+  background-color: white;
+  border-radius: 7px;
+  padding: 8px;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.sign-in-with-container {
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .sign-in-with-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.sign-in-with-text {
+  color: gray;
+  font-size: 15px;
+  font-family: 'roboto';
+  margin-left: 5px;
+}
+.lg-sign-in-left-side-container {
+  width: 40vw;
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.sign-in-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .login-bg-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .sign-in-form-container {
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .lg-sign-in-left-side-container {
+    display: none;
+  }
+  .right-side-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.register-account-text {
+  color: grey;
+  font-size: 16px;
+  text-align: center;
+}
+.forgot-text {
+  color: blue;
+  font-size: 15px;
+  cursor: pointer;
+}

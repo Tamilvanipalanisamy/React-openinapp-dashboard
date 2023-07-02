@@ -1,0 +1,124 @@
+.products-container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .products-container {
+    width: 48%;
+    padding: 20px;
+    height: 330px;
+  }
+}
+.pie-chart-container {
+  padding: 0px;
+  margin: 0px;
+}
+.pie-ul-list {
+  padding: 0px;
+  margin: 0px;
+}
+.pie-list-item {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.dot-tees {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: rgb(152, 216, 158);
+  margin-right: 7px;
+}
+.dot-pants {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: rgb(246, 220, 125);
+  margin-right: 7px;
+}
+.dot-hoodies {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: rgb(238, 132, 132);
+  margin-right: 7px;
+}
+.pie-heading {
+  font-size: 17px;
+  font-family: 'roboto';
+}
+.pie-dot-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.percentage {
+  font-size: 14px;
+  font-family: 'roboto';
+  line-height: 0px;
+  color: grey;
+  margin: 1px;
+  margin-left: 17px;
+}
+.chart-naming-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.schedule-heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.schedule-container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .schedule-container {
+    width: 48%;
+    padding: 20px;
+    height: 330px;
+  }
+}
+.meeting-container {
+  border-left: 5px solid #9bdd7c;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+.meeting-container1 {
+  border-left: 5px solid #6972c3;
+  padding-left: 10px;
+  margin-top: 25px;
+}
+.meeting-heading {
+  color: #666;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+.meeting-time {
+  color: #666;
+  font-size: 14px;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .products-schedule-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.meetings-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
